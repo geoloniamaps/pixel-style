@@ -1,0 +1,21 @@
+id: water-name
+type: symbol
+source: geolonia
+source-layer: water_name
+layout:
+  text-font:
+    - Noto Sans Universal Bold
+  text-size:
+    stops:
+      - - 3
+        - 10
+      - - 8
+        - 14
+  text-field: '{name}'
+  text-max-width: 5
+  text-padding: 10
+  text-letter-spacing: 0.1
+paint:
+  text-color: '#e8e0d0'
+  text-halo-width: 2
+  text-halo-color: '#1a4870'

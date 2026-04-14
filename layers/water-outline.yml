@@ -1,0 +1,14 @@
+id: water-outline
+type: line
+source: geolonia
+source-layer: water
+paint:
+  line-color: '#1a4870'
+  line-width:
+    stops:
+      - - 5
+        - 1
+      - - 10
+        - 2
+      - - 15
+        - 3

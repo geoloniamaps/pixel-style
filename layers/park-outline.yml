@@ -1,0 +1,15 @@
+id: park-outline
+type: line
+source: geolonia
+source-layer: park
+layout:
+  line-cap: butt
+  line-join: miter
+paint:
+  line-color: '#2d7a2d'
+  line-width:
+    stops:
+      - - 10
+        - 1
+      - - 15
+        - 2

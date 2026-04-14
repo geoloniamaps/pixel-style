@@ -1,0 +1,24 @@
+id: railway
+type: line
+source: geolonia
+source-layer: transportation
+filter:
+  - all
+  - - ==
+    - class
+    - rail
+  - - '!has'
+    - service
+layout:
+  line-cap: butt
+  line-join: miter
+paint:
+  line-color: '#584838'
+  line-width:
+    stops:
+      - - 10
+        - 1
+      - - 14
+        - 2
+      - - 18
+        - 3

@@ -1,0 +1,39 @@
+id: tunnel
+type: line
+source: geolonia
+source-layer: transportation
+filter:
+  - all
+  - - ==
+    - brunnel
+    - tunnel
+  - - in
+    - class
+    - primary
+    - secondary
+    - tertiary
+    - trunk
+    - motorway
+layout:
+  line-cap: butt
+  line-join: miter
+paint:
+  line-color: '#c4b478'
+  line-dasharray:
+    - 4
+    - 2
+  line-width:
+    - interpolate
+    - - exponential
+      - 0.9
+    - - zoom
+    - 6
+    - 0.5
+    - 12
+    - 1.5
+    - 14
+    - 3.5
+    - 16
+    - 10
+    - 18
+    - 18

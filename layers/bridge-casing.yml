@@ -1,0 +1,38 @@
+id: bridge-casing
+type: line
+source: geolonia
+source-layer: transportation
+filter:
+  - all
+  - - ==
+    - brunnel
+    - bridge
+  - - in
+    - class
+    - primary
+    - secondary
+    - tertiary
+    - trunk
+    - motorway
+layout:
+  line-cap: butt
+  line-join: miter
+paint:
+  line-color: '#5a4a28'
+  line-width:
+    - interpolate
+    - - exponential
+      - 0.9
+    - - zoom
+    - 6
+    - 1
+    - 12
+    - 2.5
+    - 14
+    - 6
+    - 16
+    - 16
+    - 18
+    - 24
+    - 20
+    - 150

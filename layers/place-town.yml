@@ -1,0 +1,26 @@
+id: place-town
+type: symbol
+source: geolonia
+source-layer: place
+filter:
+  - all
+  - - ==
+    - class
+    - town
+layout:
+  text-font:
+    - Noto Sans Universal Bold
+  text-size:
+    stops:
+      - - 7
+        - 12
+      - - 12
+        - 15
+  text-field: '{name}'
+  text-max-width: 6
+  text-padding: 20
+  text-letter-spacing: 0.05
+paint:
+  text-color: '#f0e8c8'
+  text-halo-width: 2.5
+  text-halo-color: '#4a3a18'

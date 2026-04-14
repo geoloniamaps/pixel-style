@@ -1,0 +1,54 @@
+version: 8
+name: Pixel Art Style (ドット絵風)
+sources:
+  geolonia:
+    type: vector
+    url: https://tileserver.geolonia.com/v2_combined2/tiles.json?key=YOUR-API-KEY
+glyphs: https://glyphs.geolonia.com/{fontstack}/{range}.pbf
+layers:
+  # 背景（砂色）
+  - !!inc/file layers/background.yml
+  # 地被
+  - !!inc/file layers/landcover-grass.yml
+  - !!inc/file layers/landcover-wood.yml
+  # 水域（深い青）
+  - !!inc/file layers/water.yml
+  - !!inc/file layers/oc-water.yml
+  - !!inc/file layers/water-outline.yml
+  - !!inc/file layers/waterway.yml
+  # 公園（鮮やかな緑）
+  - !!inc/file layers/park.yml
+  - !!inc/file layers/park-outline.yml
+  # トンネル
+  - !!inc/file layers/tunnel-casing.yml
+  - !!inc/file layers/tunnel.yml
+  # 道路（土色のシャープな線）
+  - !!inc/file layers/highway-area.yml
+  - !!inc/file layers/highway-minor-casing.yml
+  - !!inc/file layers/highway-major-casing.yml
+  - !!inc/file layers/highway-motorway-casing.yml
+  - !!inc/file layers/highway-path.yml
+  - !!inc/file layers/highway-minor.yml
+  - !!inc/file layers/highway-major.yml
+  - !!inc/file layers/highway-motorway.yml
+  # 鉄道
+  - !!inc/file layers/railway.yml
+  - !!inc/file layers/railway-hatching.yml
+  # 橋
+  - !!inc/file layers/bridge-casing.yml
+  - !!inc/file layers/bridge.yml
+  # 建物（RPGの家風・太いアウトライン）
+  - !!inc/file layers/building.yml
+  - !!inc/file layers/building-outline.yml
+  # 行政境界（赤）
+  - !!inc/file layers/boundary-land-level-2.yml
+  - !!inc/file layers/boundary-land-level-4.yml
+  # ラベル
+  - !!inc/file layers/water-name.yml
+  - !!inc/file layers/road-name.yml
+  # 地名ラベル（ボールドでRPG風）
+  - !!inc/file layers/place-village.yml
+  - !!inc/file layers/place-town.yml
+  - !!inc/file layers/place-city.yml
+  - !!inc/file layers/place-state.yml
+  - !!inc/file layers/place-country.yml

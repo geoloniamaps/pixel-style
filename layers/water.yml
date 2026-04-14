@@ -1,0 +1,6 @@
+id: water
+type: fill
+source: geolonia
+source-layer: water
+paint:
+  fill-color: '#2868a8'

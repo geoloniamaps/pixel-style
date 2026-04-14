@@ -1,0 +1,30 @@
+id: boundary-land-level-4
+type: line
+source: geolonia
+source-layer: boundary
+minzoom: 4
+filter:
+  - all
+  - - in
+    - admin_level
+    - 4
+    - 6
+  - - '!='
+    - maritime
+    - 1
+layout:
+  line-cap: butt
+  line-join: miter
+paint:
+  line-color: '#c05050'
+  line-dasharray:
+    - 4
+    - 2
+  line-width:
+    stops:
+      - - 4
+        - 0.5
+      - - 8
+        - 1.5
+      - - 12
+        - 2.5
