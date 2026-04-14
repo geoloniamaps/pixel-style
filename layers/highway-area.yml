@@ -7,5 +7,5 @@ filter:
   - $type
   - Polygon
 paint:
-  fill-color: '#c8b870'
+  fill-pattern: pattern-sand
   fill-opacity: 0.9
