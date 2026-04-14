@@ -1,17 +1,17 @@
-# pixel-style
+# adventure-style
 
-ドット絵風の地図スタイル (Pixel art / retro game style map)
+冒険する地図スタイル (Adventure map style for exploration)
 
-レトロゲーム風のボールドな配色とシャープなエッジで、RPGの冒険マップのような見た目を実現するスタイルです。
+冒険心をくすぐる配色とテクスチャで、RPGの冒険マップのような見た目を実現するスタイルです。
 
 ## プレビュー
 
-https://geoloniamaps.github.io/pixel-style/
+https://geoloniamaps.github.io/adventure-style/
 
 ## 使い方
 
 ```
-https://geoloniamaps.github.io/pixel-style/style.json
+https://geoloniamaps.github.io/adventure-style/style.json
 ```
 
 ## 開発

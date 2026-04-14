@@ -1,7 +1,7 @@
 {
-  "name": "pixel-style",
+  "name": "adventure-style",
   "version": "1.0.0",
-  "description": "ドット絵風の地図スタイル (Pixel art / retro game style map)",
+  "description": "冒険する地図スタイル (Adventure map style for exploration)",
   "main": "style.json",
   "scripts": {
     "start": "charites serve style.yml",

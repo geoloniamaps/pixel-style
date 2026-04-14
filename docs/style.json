@@ -1,13 +1,13 @@
 {
   "version": 8,
-  "name": "Pixel Art Style (ドット絵風)",
+  "name": "Adventure Style (冒険する地図)",
   "sources": {
     "geolonia": {
       "type": "vector",
       "url": "https://tileserver.geolonia.com/v2_combined2/tiles.json?key=YOUR-API-KEY"
     }
   },
-  "sprite": "https://geoloniamaps.github.io/pixel-style/sprite",
+  "sprite": "https://geoloniamaps.github.io/adventure-style/sprite",
   "glyphs": "https://glyphs.geolonia.com/{fontstack}/{range}.pbf",
   "layers": [
     {
