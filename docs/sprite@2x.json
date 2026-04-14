@@ -1,0 +1,44 @@
+{
+  "pattern-water": {
+    "width": 32,
+    "height": 32,
+    "x": 0,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "pattern-grass": {
+    "width": 32,
+    "height": 32,
+    "x": 32,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "pattern-forest": {
+    "width": 32,
+    "height": 32,
+    "x": 64,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "pattern-building": {
+    "width": 32,
+    "height": 32,
+    "x": 96,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "pattern-park": {
+    "width": 32,
+    "height": 32,
+    "x": 128,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "pattern-road": {
+    "width": 32,
+    "height": 32,
+    "x": 160,
+    "y": 0,
+    "pixelRatio": 2
+  }
+}

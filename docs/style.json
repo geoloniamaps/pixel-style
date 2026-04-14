@@ -7,6 +7,7 @@
       "url": "https://tileserver.geolonia.com/v2_combined2/tiles.json?key=YOUR-API-KEY"
     }
   },
+  "sprite": "https://geoloniamaps.github.io/pixel-style/sprite",
   "glyphs": "https://glyphs.geolonia.com/{fontstack}/{range}.pbf",
   "layers": [
     {
@@ -28,8 +29,7 @@
         "grass"
       ],
       "paint": {
-        "fill-color": "#5cad3e",
-        "fill-opacity": 0.8
+        "fill-pattern": "pattern-grass"
       }
     },
     {
@@ -44,8 +44,7 @@
         "wood"
       ],
       "paint": {
-        "fill-color": "#2d7a2d",
-        "fill-opacity": 0.85
+        "fill-pattern": "pattern-forest"
       }
     },
     {
@@ -134,8 +133,7 @@
       "source-layer": "park",
       "minzoom": 11,
       "paint": {
-        "fill-color": "#48b848",
-        "fill-opacity": 0.8
+        "fill-pattern": "pattern-park"
       }
     },
     {
@@ -278,7 +276,7 @@
         "Polygon"
       ],
       "paint": {
-        "fill-color": "#c8b870",
+        "fill-pattern": "pattern-road",
         "fill-opacity": 0.9
       }
     },
@@ -853,7 +851,7 @@
       "source-layer": "building",
       "minzoom": 13,
       "paint": {
-        "fill-color": "#b07848",
+        "fill-pattern": "pattern-building",
         "fill-opacity": {
           "stops": [
             [
