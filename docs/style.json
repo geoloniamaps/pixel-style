@@ -1019,7 +1019,7 @@
       "minzoom": 8,
       "layout": {
         "text-font": [
-          "Noto Sans Universal Bold"
+          "Noto Sans Universal Regular"
         ],
         "text-size": {
           "stops": [
@@ -1073,7 +1073,7 @@
       ],
       "layout": {
         "text-font": [
-          "Noto Sans Universal Bold"
+          "Noto Sans Universal Regular"
         ],
         "text-size": 12,
         "text-field": "{name}",
@@ -1120,7 +1120,7 @@
       ],
       "layout": {
         "text-font": [
-          "Noto Sans Universal Bold"
+          "Noto Sans Universal Regular"
         ],
         "text-size": 11,
         "text-field": "{name}",
@@ -1150,7 +1150,7 @@
       ],
       "layout": {
         "text-font": [
-          "Noto Sans Universal Bold"
+          "Noto Sans Universal Regular"
         ],
         "text-size": {
           "stops": [
@@ -1230,7 +1230,7 @@
       ],
       "layout": {
         "text-font": [
-          "Noto Sans Universal Bold"
+          "Noto Sans Universal Regular"
         ],
         "text-size": {
           "stops": [

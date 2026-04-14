@@ -10,7 +10,7 @@ filter:
     - village
 layout:
   text-font:
-    - Noto Sans Universal Bold
+    - Noto Sans Universal Regular
   text-size: 11
   text-field: '{name}'
   text-max-width: 6

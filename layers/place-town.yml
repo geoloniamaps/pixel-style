@@ -10,7 +10,7 @@ filter:
     - town
 layout:
   text-font:
-    - Noto Sans Universal Bold
+    - Noto Sans Universal Regular
   text-size:
     stops:
       - - 7

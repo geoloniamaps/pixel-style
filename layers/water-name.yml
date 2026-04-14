@@ -5,7 +5,7 @@ source-layer: water_name
 minzoom: 8
 layout:
   text-font:
-    - Noto Sans Universal Bold
+    - Noto Sans Universal Regular
   text-size:
     stops:
       - - 3
