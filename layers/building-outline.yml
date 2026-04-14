@@ -2,7 +2,7 @@ id: building-outline
 type: line
 source: geolonia
 source-layer: building
-minzoom: 14
+minzoom: 15
 layout:
   line-cap: butt
   line-join: miter

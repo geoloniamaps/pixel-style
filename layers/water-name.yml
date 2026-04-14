@@ -2,6 +2,7 @@ id: water-name
 type: symbol
 source: geolonia
 source-layer: water_name
+minzoom: 8
 layout:
   text-font:
     - Noto Sans Universal Bold

@@ -2,6 +2,7 @@ id: water-outline
 type: line
 source: geolonia
 source-layer: water
+minzoom: 10
 paint:
   line-color: '#1a4870'
   line-width:

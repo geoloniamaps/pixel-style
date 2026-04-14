@@ -21,6 +21,7 @@
       "type": "fill",
       "source": "geolonia",
       "source-layer": "landcover",
+      "minzoom": 11,
       "filter": [
         "==",
         "class",
@@ -36,6 +37,7 @@
       "type": "fill",
       "source": "geolonia",
       "source-layer": "landcover",
+      "minzoom": 11,
       "filter": [
         "==",
         "class",
@@ -69,6 +71,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "water",
+      "minzoom": 10,
       "paint": {
         "line-color": "#1a4870",
         "line-width": {
@@ -94,6 +97,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "waterway",
+      "minzoom": 11,
       "filter": [
         "all",
         [
@@ -128,6 +132,7 @@
       "type": "fill",
       "source": "geolonia",
       "source-layer": "park",
+      "minzoom": 11,
       "paint": {
         "fill-color": "#48b848",
         "fill-opacity": 0.8
@@ -138,6 +143,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "park",
+      "minzoom": 13,
       "layout": {
         "line-cap": "butt",
         "line-join": "miter"
@@ -163,6 +169,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
+      "minzoom": 11,
       "filter": [
         "all",
         [
@@ -217,6 +224,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
+      "minzoom": 11,
       "filter": [
         "all",
         [
@@ -271,6 +279,7 @@
       "type": "fill",
       "source": "geolonia",
       "source-layer": "transportation",
+      "minzoom": 14,
       "filter": [
         "==",
         "$type",
@@ -286,6 +295,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
+      "minzoom": 13,
       "filter": [
         "all",
         [
@@ -336,6 +346,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
+      "minzoom": 8,
       "filter": [
         "all",
         [
@@ -388,6 +399,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
+      "minzoom": 6,
       "filter": [
         "all",
         [
@@ -442,6 +454,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
+      "minzoom": 14,
       "filter": [
         "all",
         [
@@ -495,6 +508,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
+      "minzoom": 13,
       "filter": [
         "all",
         [
@@ -547,6 +561,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
+      "minzoom": 8,
       "filter": [
         "all",
         [
@@ -599,6 +614,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
+      "minzoom": 6,
       "filter": [
         "all",
         [
@@ -653,6 +669,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
+      "minzoom": 11,
       "filter": [
         "all",
         [
@@ -694,6 +711,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
+      "minzoom": 11,
       "filter": [
         "all",
         [
@@ -739,6 +757,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
+      "minzoom": 11,
       "filter": [
         "all",
         [
@@ -791,6 +810,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "transportation",
+      "minzoom": 11,
       "filter": [
         "all",
         [
@@ -869,7 +889,7 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "building",
-      "minzoom": 14,
+      "minzoom": 15,
       "layout": {
         "line-cap": "butt",
         "line-join": "miter"
@@ -1008,6 +1028,7 @@
       "type": "symbol",
       "source": "geolonia",
       "source-layer": "water_name",
+      "minzoom": 8,
       "layout": {
         "text-font": [
           "Noto Sans Universal Bold"
@@ -1040,6 +1061,7 @@
       "type": "symbol",
       "source": "geolonia",
       "source-layer": "transportation_name",
+      "minzoom": 12,
       "filter": [
         "all",
         [
@@ -1099,6 +1121,7 @@
       "type": "symbol",
       "source": "geolonia",
       "source-layer": "place",
+      "minzoom": 12,
       "filter": [
         "all",
         [
@@ -1128,6 +1151,7 @@
       "type": "symbol",
       "source": "geolonia",
       "source-layer": "place",
+      "minzoom": 8,
       "filter": [
         "all",
         [

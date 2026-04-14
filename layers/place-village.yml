@@ -2,6 +2,7 @@ id: place-village
 type: symbol
 source: geolonia
 source-layer: place
+minzoom: 12
 filter:
   - all
   - - ==

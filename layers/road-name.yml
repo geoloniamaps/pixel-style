@@ -2,6 +2,7 @@ id: road-name
 type: symbol
 source: geolonia
 source-layer: transportation_name
+minzoom: 12
 filter:
   - all
   - - ==

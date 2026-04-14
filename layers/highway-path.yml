@@ -2,6 +2,7 @@ id: highway-path
 type: line
 source: geolonia
 source-layer: transportation
+minzoom: 14
 filter:
   - all
   - - ==

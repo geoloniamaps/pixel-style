@@ -2,6 +2,7 @@ id: waterway
 type: line
 source: geolonia
 source-layer: waterway
+minzoom: 11
 filter:
   - all
   - - ==
